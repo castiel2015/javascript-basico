@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4 -Tipos de Dado-Funções</title>
+</head>
+<body>
+
+    <input type="Operacao Matematica">
+    <input type="Numero Um">
+    <input type="Numero Dois">
+
+
+    <script>
+                           // (AQUI FICA AS VARIAVEIS, OS CRITÉRIOS)
+        function calculadora(operacaoMatematica, numeroUm, numeroDois){
+            
+           //var resultado = 'vazio';
+            var resultado;
+
+            if (operacaoMatematica == 'soma') {
+                resultado = numeroUm + numeroDois
+            } 
+            if (operacaoMatematica == "divisao") {
+                resultado = numeroUm / numeroDois
+            }    
+            
+            if (operacaoMatematica == 'jesus') {
+                resultado = numeroUm * numeroDois
+            }
+                       
+            return resultado;
+
+
+            calculadora();
+        }
+
+
+       console.log(calculadora('divisao', 100, 100))
+        console.log(calculadora('soma', 15, 100))
+       // console.log(calculadora('soma', 1, 100))
+       // console.log(calculadora('soma', 12, 100))
+
+       
+
+
+        /*
+        var retornoDaFuncaoCalculadora = calculadora("jesus", 10, 10)
+        var retornoDaFuncaoCalculadora = 100
+        console.log(
+            retornoDaFuncaoCalculadora,
+            calculadora('soma', 500, 500), 
+            // 1000
+        )
+       
+
+        calculadora('divisao', 1000, 1)//1000
+       
+*/
+
+
+       // alert(calculadora('soma', 10, 70))
+       // console.log(calculadora('soma', 10, 70))// 80
+      //  console.log(calculadora('jesus', 10, 10))// 100
+     
+  // calculadora('divisao', 100, 10)// 10
+     
+
+
+
+
+    </script>
+</body>
+</html>

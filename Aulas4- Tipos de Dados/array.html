@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4 - array</title>
+
+</head>
+<body>
+
+       <script>
+        
+        /*var minhaSeriesFavoritas = [ 
+            'sobrenatural',
+            'reacher',
+            'dr chaos',
+            'advogados',
+            'mostra-me o pai'
+        ]
+        */
+        //minhaSeriesFavoritas [0] = "teste1";
+
+        //console.log(minhaSeriesFavoritas);
+
+
+
+        //minhaSeriesFavoritas[0] = "desenhos"; // desta forma adicionamos um item no final da lista
+
+        //minhaSeriesFavoritas.push = ("Pica Pau");
+
+        //minhaSeriesFavoritas.pop(); // este item exclui o ultimo item da fila do array
+
+        //console.log(minhaSeriesFavoritas)
+
+        // console.log(minhaSeriesFavoritas[0]);
+
+
+
+
+
+
+
+
+
+
+
+        
+     
+/*  Aula 4 - Tipos de Dados - Array - Ex 2
+  Abaixo temos uma variável que é um array com arrays dentro dele.
+  
+  Para poder acessar o primeiro valor do primeiro array, podemos fazê-lo da seguinte forma vetor[0][0] e o JavaScript retornará o valor 1.
+  
+  Tendo isto em mente, exiba no console (console.log):
+    - O segundo item do segundo array
+    - O terceiro item do quarto array
+    
+  Após isso, altere:
+    - O terceiro item do primeiro array para 2
+    - O primeiro item do terceiro array para "Mundo"
+
+var vetor = [[1, 2, 3, 4, 5], [1.1, 2.2, 3.3, 4.4], ["a", "b", "c", "d", "e"], [1, "a", 2, "b", 3]];
+
+// Lembre-se que o primeiro de um vetor está na posição 0;
+// Então se fossemos acessar o primeiro item de cada vetor da variavel acima
+// teriamos vetor[0][0], vetor[1][0], vetor[2][0], vetor[3][0]
+
+       var vetor = [[1, 2, 3, 4, 5], [1.1, 2.2, 3.3, 4.4], ["a", "b", "c", "d", "e"], [1, "a", 2, "b", 3]];
+
+
+        console.log(vetor[0][0]);
+        console.log(vetor[1][1]);
+        console.log(vetor[3][3]);
+
+        vetor[0][2] = "2";
+        vetor[2][0] = "Mundo";
+
+        console.log(vetor)
+*/
+
+/*
+  
+  1 - Crie 1 variável chamada tamanho que conterá o tamanho da nossa variável vetor.
+  2 - Exclua o último item do vetor usando o pop
+  3 - Imprima array usando o console.log
+  4 - Adicione o valor "z" no final do array usando o push().
+  5 - Imprima usando o console.log
+
+*/
+
+var vetor = ["a", "b", "c", "d", "e"];
+
+var tamanho = vetor.length; // assim que conta as galinhas do galinheiro
+
+vetor.pop();
+
+console.log(vetor,tamanho);
+
+
+vetor.push("z");
+
+console.log(vetor);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
